@@ -78,7 +78,7 @@ Return Value:
         //
         status = WdfDeviceCreateDeviceInterface(
             device,
-            &GUID_DEVINTERFACE_USBEEDriver,
+            &GUID_DEVINTERFACE_USBEE_DRIVER,
             NULL // ReferenceString
             );
 
